@@ -155,9 +155,6 @@ html {
 
 .code-sample {
   text-shadow: 2px 1px var(--green);
-}
-
-pre {
   font-family: var(--lato);
 }
 
@@ -179,4 +176,8 @@ pre {
 
 .ico {
   margin: 0 5px;
+}
+
+iframe {
+  border-radius:12px;
 }
