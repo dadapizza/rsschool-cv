@@ -6,7 +6,7 @@
     --darkblue: #2C6CBF;
     --green: #6FBFB1;
     --yellow: #F2CD5C;
-    --white: #f8f4e2;
+    --white: #f7f0e4;
     --txt: rgb(43, 43, 43);
     
 }
@@ -46,11 +46,13 @@ html {
 .nav-link {
   text-decoration: none;
   color: var(--txt);
+  text-shadow: 2px 1px var(--yellow);
 }
 
 .nav-link:hover {
-  transition: 0.3s;
-  text-shadow: 2px 1px var(--yellow);
+  transition: 0.3ms;
+  text-shadow: 1px 1px var(--txt);
+  color: var(--yellow);
 }
 
 .skill-list {
@@ -180,5 +182,21 @@ html {
 
 iframe {
   border-radius:12px;
-  border: 0px;
+  border: 0;
 }
+
+.dada-photo {
+  height: 240px;
+  margin-right: 80px;
+}
+
+#summary {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.text-part {
+  align-self: center;
+}
+
