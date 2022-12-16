@@ -212,33 +212,28 @@ sup {
 }
 /* footer */
 
-.img-link {
-    margin: 20px;
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.link, .text {
+    margin: 0;
+    padding: 10px;
 }
 
 .link-img {
     height: 32px;
 }
 
-.footer-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-}
-
-#year {
+.text {
     color: white;
-    font-size: 20px;
     font-family: var(--headings);
-    align-self: center;
-    justify-self: center;
+    font-size: 32px;
 }
 
-.git-link {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+iframe {
+    border: none;
 }
