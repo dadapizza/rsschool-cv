@@ -116,6 +116,10 @@ nav {
     text-align: center;
 }
 
+#hidden {
+    display: none;
+}
+
 #photo {
     display: flex;
     align-items: center;
